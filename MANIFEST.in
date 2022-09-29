@@ -1,0 +1,13 @@
+include LICENSE
+include README.md
+include CHANGELOG.rst
+recursive-include pylabf *.py
+
+exclude tox.ini
+exclude pyproject.toml
+exclude .readthedocs.yaml
+exclude .docstr.yaml
+recursive-exclude tests *
+recursive-exclude requirements *
+recursive-exclude docs *
+recursive-exclude examples *

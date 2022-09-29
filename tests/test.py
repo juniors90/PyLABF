@@ -6,10 +6,10 @@ from linsys import *
 
 getcontext().prec = 30
 
-# vector1 = Vector([8.218,-9.341])
-# vector2 = Vector([7.119,8.215])
-# vector3 = Vector([1.671,-1.012,-0.318])
-# print vector1.plus(Vector([-1.129,2.111]))
+vector1 = Vector([8.218,-9.341])
+vector2 = Vector([7.119,8.215])
+vector3 = Vector([1.671,-1.012,-0.318])
+print(plus(vector1 ,Vector([-1.129,2.111])))
 # print vector2.minus(Vector([-8.223,0.878]))
 # print vector3.times_scalar(7.41)
 
